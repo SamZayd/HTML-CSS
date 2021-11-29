@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <title>Add address</title>
+    </head>
+    <body>
+        <h1>Add a new Address</h1>
+        <form >
+
+            <h4>Required field are marked as *</h4>
+            <label> Name * </label>
+            <input type="text" name="name"/><br/><br/>
+            <label> Mobile number * </label>
+            <input type="number" name="mobile"/><br/><br/>
+            <label> Pincode * </label>
+            <input type="number" name="pincode"/> <br/><br/>
+            <label> Locality * </label>
+            <input type="text" name="locality"/><br/><br/>
+            <label> Address * </label>
+            <textarea name="address" rows=5 cols="30"></textarea> <br/><br/>
+            <label> City/District/Town * </label>
+            <input type="text" name="cdt"/> <br/><br/>
+            <label> State * </label>
+            <select>
+                <option>--States--</option>
+
+                <option>Andhra Pradesh</option>
+                <option>Arunachal Pradesh</option>
+                <option>Assam</option>
+                <option>Bihar</option>
+
+                <option>Chhattisgarh</option>
+                <option>Goa</option>
+                <option>Gujarat</option>
+                <option>Haryana</option>
+
+                <option>Himachal Pradesh</option>
+                <option>Jharkhand</option>
+                <option>Karnataka</option>
+                <option>Kerala</option>
+
+                <option>Madhya Pradesh</option>
+                <option>Maharashtra</option>
+                <option>Manipur</option>
+                <option>Meghalaya</option>
+
+                <option>Mizoram</option>
+                <option>Nagaland</option>
+                <option>Odisha</option>
+                <option>Punjab</option>
+
+                <option>Rajasthan</option>
+                <option>Sikkim</option>
+                <option>Tamil Nadu</option>
+                <option>Telangana</option>
+
+                <option>Tripura</option>
+                <option>Uttar Pradesh</option>
+                <option>Uttarakhand</option>
+                <option>West Bengal</option>
+                
+            </select> <br/><br/>
+            <label> Landmark(optional) </label>
+            <input type="text" name="landmark"/> <br/><br/>
+            <label> Alternate phone(optional) </label>
+            <input type="number" name="phone"/> <br/><br/>
+            <label> Address Type * </label><br/><br/>
+            <label for="home">Home</label>
+            <input type="radio" name="address" value="home"/>
+            <label for="office">Office</label>
+            <input type="radio" name="address" value="office"/><br/><br/>
+
+            <input type="button" value="Save">
+            <input type="button" value="Cancel">
+        
+        </form>
+    </body>
+</html>
