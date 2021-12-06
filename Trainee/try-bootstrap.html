@@ -1,172 +1,70 @@
 <html>
     <head>
         <title> Dropdown | TRY </title>
-        <link href="./Bootstap/bts.css" rel="stylesheet">
+<!--         <link href="./Bootstap/bts.css" rel="stylesheet"> -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">  
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>      
+
     </head>
     <body>
-      <div class="input-group mb-3">
-        <div class="input-group-prepend">
-          <span class="input-group-text" id="basic-addon1">@</span>
-        </div>
-        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
-      </div>
-      
-      <div class="input-group mb-3">
-        <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
-        <div class="input-group-append">
-          <span class="input-group-text" id="basic-addon2">@example.com</span>
-        </div>
-      </div>
-      
-      <label for="basic-url">Your vanity URL</label>
-      <div class="input-group mb-3">
-        <div class="input-group-prepend">
-          <span class="input-group-text" id="basic-addon3">https://example.com/users/</span>
-        </div>
-        <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
-      </div>
-      
-      <div class="input-group mb-3">
-        <div class="input-group-prepend">
-          <span class="input-group-text">$</span>
-        </div>
-        <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
-        <div class="input-group-append">
-          <span class="input-group-text">.00</span>
-        </div>
-      </div>
-      
-      <div class="input-group">
-        <div class="input-group-prepend">
-          <span class="input-group-text">With textarea</span>
-        </div>
-        <textarea class="form-control" aria-label="With textarea"></textarea>
-      </div>
-      <div class="input-group mb-3">
-        <div class="input-group-prepend">
-          <div class="input-group-text">
-            <input type="checkbox" aria-label="Checkbox for following text input">
-          </div>
-        </div>
-        <input type="text" class="form-control" aria-label="Text input with checkbox">
-      </div>
-      
-      <div class="input-group">
-        <div class="input-group-prepend">
-          <div class="input-group-text">
-            <input type="radio" aria-label="Radio button for following text input">
-          </div>
-        </div>
-        <input type="text" class="form-control" aria-label="Text input with radio button">
-      </div>
-      <div class="input-group input-group-sm mb-3">
-        <div class="input-group-prepend">
-          <span class="input-group-text" id="inputGroup-sizing-sm">Small</span>
-        </div>
-        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
-      </div>
-      
-      <div class="input-group mb-3">
-        <div class="input-group-prepend">
-          <span class="input-group-text" id="inputGroup-sizing-default">Default</span>
-        </div>
-        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-      </div>
-      
-      <div class="input-group input-group-lg">
-        <div class="input-group-prepend">
-          <span class="input-group-text" id="inputGroup-sizing-lg">Large</span>
-        </div>
-        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
-      </div>
-      <div class="input-group mb-3">
-        <div class="input-group-prepend">
-          <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">Dropdown</button>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
-            <div role="separator" class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Separated link</a>
-          </div>
-        </div>
-        <input type="text" class="form-control" aria-label="Text input with dropdown button">
-      </div>
-      
-      <div class="input-group">
-        <input type="text" class="form-control" aria-label="Text input with dropdown button">
-        <div class="input-group-append">
-          <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">Dropdown</button>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
-            <div role="separator" class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Separated link</a>
-          </div>
-        </div>
-      </div>
-      <div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-expanded="false">
-          Dropdown button
-        </button>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-      </div>
-      <form class="dropdown-menu p-4">
-        <div class="form-group">
-          <label for="exampleDropdownFormEmail2">Email address</label>
-          <input type="email" class="form-control" id="exampleDropdownFormEmail2" placeholder="email@example.com">
-        </div>
-        <div class="form-group">
-          <label for="exampleDropdownFormPassword2">Password</label>
-          <input type="password" class="form-control" id="exampleDropdownFormPassword2" placeholder="Password">
-        </div>
-        <div class="form-group">
-          <div class="form-check">
-            <input type="checkbox" class="form-check-input" id="dropdownCheck2">
-            <label class="form-check-label" for="dropdownCheck2">
-              Remember me
-            </label>
-          </div>
-        </div>
-        <button type="submit" class="btn btn-primary">Sign in</button>
-      </form>
-        <div class="d-flex">
-            <div class="dropdown mr-1">
-              <button type="button" class="btn btn-secondary dropdown-toggle" id="dropdownMenuOffset" data-toggle="dropdown" aria-expanded="false" data-offset="10,20">
-                Offset
-              </button>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuOffset">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
+
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-10">
+
+            <!-- Small button groups (default and split) -->
+<div class="btn-group">
+  <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+    DropDown
+  </button>
+  <div class="dropdown-menu">
+    <a class="dropdown-item" href="#">Action</a>
+    <a class="dropdown-item" href="#">Another action</a>
+    <a class="dropdown-item" href="#">Something else here</a>
+    <div role="separator" class="dropdown-divider"></div>
+    <a class="dropdown-item" href="#">Separated link</a>
+  </div>
+</div>
+<div class="btn-group">
+  <button class="btn btn-secondary btn-sm" type="button">
+    Small split button
+  </button>
+  <button type="button" class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false">
+    <span class="sr-only">Toggle Dropdown</span>
+  </button>
+  <div class="dropdown-menu">
+    ...
+  </div>
+</div>
+           
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">Dropdown</button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                  <div role="separator" class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Separated link</a>
+                </div>
+              </div>
+              <input type="text" class="form-control" aria-label="Text input with dropdown button">
+            </div>
+            
+            <div class="input-group">
+              <input type="text" class="form-control" aria-label="Text input with dropdown button">
+              <div class="input-group-append">
+                <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">Dropdown</button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                  <div role="separator" class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Separated link</a>
+                </div>
               </div>
             </div>
-            <div class="btn-group">
-              <button type="button" class="btn btn-secondary">Reference</button>
-              <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" id="dropdownMenuReference" data-toggle="dropdown" aria-expanded="false" data-reference="parent">
-                <span class="sr-only">Toggle Dropdown</span>
-              </button>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuReference">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Separated link</a>
-              </div>
-            </div>
-          </div>
-        <div class="dropdown">
-            <button id="dLabel" type="button" data-toggle="dropdown" aria-expanded="false">
-              Dropdown trigger
-            </button>
-            <div class="dropdown-menu" aria-labelledby="dLabel">
-              ...
-            </div>
-          </div>
     </body>
 </html>

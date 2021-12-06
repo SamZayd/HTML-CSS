@@ -2,35 +2,60 @@
     <head>
         <title> New Website | TRY flipkart </title>
         <link href="./css/inone.css" rel="stylesheet">
+        <link href="./Bootstap/bts.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>      
     </head>
     <body>
         <div class ="Header">
+            
             <a href="index.html"><img src="./flipkart-plus-logo.png" height="50" width="80"/></a>
-            <input type="text" placeholder="Search for products, brands and more " >
-            <div class="dropdown-menu">
-                <h6 class="dropdown-header">Dropdown header</h6> 
-                <a class="dropdown-item" href="#">Action</a>
-                <option>My profile</option>
-                <option>SuperCoin Zone</option>
-                <option>Flipcart Plus Zone</option>
-                <option>Orders</option>
-                <option>Wishlist</option>
-                <option>My Chats</option>
-                <option>Coupons</option>
-                <option>Gift Cards</option>
-                <option>Notification</option>
-                <option>LogOut</option>
-            </select></a>
+            
+            <div class="container">
+                <div class="input-group mb-3">
+                    <input type="text" class="col-sm-2 col-form-label" placeholder="search for products" aria-label="Recipient's username" aria-describedby="button-addon2" >
+                    <div class="input-group-append">
+                        <button class="btn btn-secondary" type="button" id="button-addon2"  >Search</button>
+                    </div>
+                </div>
             </div>
-            <a href="services.html"><img src="./service-logo.png" height="50" width="50"/></a>
-            <select>
-                <option>Notification preferences</option>
-                <option>Sell On Flipkart</option>
-                <option>24 x 7 Customer Care</option>
-                <option>Advertise</option>
-                <option>Download App</option>
-            </select>
-            <a href="cart.html"><img src="./cart-logo.png" height="50" width="50"/></a>
+
+            <a href="user.html" ><img src="./user-avatar.png" height="40" width="40"/></a>
+
+            <div class="btn-group">
+                <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false" ><i class="fa fa-bars"></i> Profile </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="./user.html">My profile</a>
+                  <div role="separator" class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Supercoin Zone</a>
+                  <a class="dropdown-item" href="#">Flipcart Plus Zone</a>
+                  <a class="dropdown-item" href="#">Orders</a>
+                  <a class="dropdown-item" href="#">Wishlist</a>
+                  <a class="dropdown-item" href="#">My Chats</a>
+                  <a class="dropdown-item" href="#">Coupons</a>
+                  <a class="dropdown-item" href="#">Gift Cards</a>
+                  <a class="dropdown-item" href="#">Notification</a>
+                  <div role="separator" class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Logout</a>
+                </div>
+              </div>
+              
+              <div class="btn-group">
+                <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false" ><i class="fa fa-bars"></i> Profile </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="./services.html">Services</a>
+                  <div role="separator" class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Notification preferences</a>
+                  <a class="dropdown-item" href="#">Sell On Flipkart</a>
+                  <a class="dropdown-item" href="#">24 x 7 Customer Care</a>
+                  <a class="dropdown-item" href="#">Advertise</a>
+                  <a class="dropdown-item" href="#">Download App</a>
+                </div>
+              </div>
+            <a href="cart.html"><img src="./cart-icon.png" height="40" width="40"/></a>
+            
             
             <a href="signup.html"><img src="signup-logo.png" height="50" width="60"/></a>
         </div>   
