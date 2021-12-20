@@ -1,55 +1,56 @@
-<html>
+<html lang="en">
     <head>
-        <script src ="./js/events.js"></script>
-        <link rel="stylesheet" href="./css/one.css"/>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="./css/one.css">
+        <title>Events</title>
     </head>    
-<body>
-    <div class="container" >
-        <form class="f1">
+<body bgcolor="#373736">
+    <div id="di" class="container">
+        <form class="f1" >
             <div class="left" >
-                <div class="column-x1 ">
-                    <button id="1" class="b1" onMouseOver="funb1()">Mouse Over</button>
+                <div class="column-x1">
+                    <h5>Click to see the changes</h5>
+                    <button id="b1">Click Here</button>
                 </div>
                 <div class="column-x2">
-                    <button id="2" class="b2" >Button 2</button>
+                    <h5>Mouse Over to see the changes</h5>
+                    <button id="b2">Pointer Over</button>
                 </div>
                 <div class="column-x3">
-                    <button id="3" class="b3">Button 3</button>
+                    <h5>Mouse Out to see the changes</h5>
+                    <button id="b3">Pointer Out</button>
                 </div>    
             </div>  
             <div class="center">
                 <div class="column-x1">
-                    <button id="4" class="b4">Button 4</button>
+                    <h5>Double Click to see the changes</h5>
+                    <button id="b4" class="b4">Double Click</button>
                 </div>
                 <div class="column-x2">
-                    <button id="5" class="b5">Button 5</button>
+                    <h5>Click to see the changes</h5>
+                    <button id="b5" class="b5" onclick="myfun()">Alert+Color</button>
                 </div> 
                 <div class="column-x3">
-                    <input id="6" type="text" class="t1"></input>
+                    <input id="t6" type="text" class="t1" placeholder="Focus"></input>
                 </div>    
             </div>  
             <div class="right">
                 <div class="column-x1">
-                    <input id="7" type="text" class="t2"></input>
+                    <input id="t7" type="text" class="t2" placeholder="Blur"></input>
                 </div>
                 <div class="column-x2">
-                    <input id="8" type="text" class="t3"></input>
+                    <input id="t8" type="text" class="t3" placeholder="Focus In/Out"></input>
                 </div>
                 <div class="column-x3">
-                    <input id="9" type="text" class="t4"></input>
+                    <input id="t9" type="text" class="t4" placeholder="Write Something"></input>
+                    <h5 id="values"></h5>
                 </div>    
                 
             </div>    
         </form>      
     </div>
+<script src="./js/events.js"></script>    
 </body>
-<script>
-    document.getElementById('1').onclick = changeColor;   
-
-    function changeColor() {
-        document.b1.background-color= "purple";
-        return false;
-    }   
-
-</script>    
 </html>
