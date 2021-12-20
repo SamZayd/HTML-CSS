@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <script src ="./js/events.js"></script>
+        <link rel="stylesheet" href="./css/one.css"/>
+    </head>    
+<body>
+    <div class="container" >
+        <form class="f1">
+            <div class="left" >
+                <div class="column-x1 ">
+                    <button id="1" class="b1" onMouseOver="funb1()">Mouse Over</button>
+                </div>
+                <div class="column-x2">
+                    <button id="2" class="b2" >Button 2</button>
+                </div>
+                <div class="column-x3">
+                    <button id="3" class="b3">Button 3</button>
+                </div>    
+            </div>  
+            <div class="center">
+                <div class="column-x1">
+                    <button id="4" class="b4">Button 4</button>
+                </div>
+                <div class="column-x2">
+                    <button id="5" class="b5">Button 5</button>
+                </div> 
+                <div class="column-x3">
+                    <input id="6" type="text" class="t1"></input>
+                </div>    
+            </div>  
+            <div class="right">
+                <div class="column-x1">
+                    <input id="7" type="text" class="t2"></input>
+                </div>
+                <div class="column-x2">
+                    <input id="8" type="text" class="t3"></input>
+                </div>
+                <div class="column-x3">
+                    <input id="9" type="text" class="t4"></input>
+                </div>    
+                
+            </div>    
+        </form>      
+    </div>
+</body>
+<script>
+    document.getElementById('1').onclick = changeColor;   
+
+    function changeColor() {
+        document.b1.background-color= "purple";
+        return false;
+    }   
+
+</script>    
+</html>
