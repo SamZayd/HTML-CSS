@@ -16,7 +16,7 @@ function btn(){
 btn2.addEventListener('pointerover', () => btn2.style.backgroundColor = '#4cae4c')
 btn3.addEventListener('pointerout', () => btn3.style.backgroundColor = '#c9302c')
 function btndbl(){
-    document.getElementById('b4').style.backgroundColor = '#c9302c'
+    document.getElementById('b4').style.backgroundColor = '#772CBD'
 }
 
 btn5.addEventListener('pointerover', () => btn5.style.backgroundColor = '#EADF40')
