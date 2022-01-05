@@ -1,4 +1,4 @@
-![SamZayd's HTML Training gif]("https://giphy.com/gifs/galaxy-space-FY9chKp6rulXy")
+![SamZayd's HTML Training gif]("https://giphy.com/gifs/galaxy-space-FY9chKp6rulXy" width=100%)
 <h1 align='center'> Hi! :wave:</h1>
 <p align='center'>
 I'm SamZayd
