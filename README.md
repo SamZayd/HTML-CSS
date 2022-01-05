@@ -1,4 +1,4 @@
-[![SamZayd's HTML Training gif](https://github.com/SamZayd/HTML-CSS/blob/main/readme%20file/ezgif.com-gif-maker.gif)]
+[![SamZayd's HTML Training gif](https://giant.gfycat.com/JoyousGlisteningHawk.mp4)]
 <h1 align='center'> Hi! :wave:</h1>
 <p align='center'>
 I'm SamZayd
