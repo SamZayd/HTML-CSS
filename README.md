@@ -6,3 +6,4 @@ I'm SamZayd
 <p align='center'>Hey there, Wanna know more about me... click <a href="https://www.linkedin.com/in/sadaf-khan-2a443912a/">LinkedIn</a>.</p>
 
 <h1 align='center'><i>Stay awesome!</i></h1>
+<a href="https://www.instagram.com/sam_zayd/"><img height="30" src="https://github.com/SamZayd/HTML-CSS/blob/main/readme%20file/instagram.png?raw=true"></a>
