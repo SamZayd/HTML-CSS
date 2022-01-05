@@ -1,4 +1,4 @@
-![SamZayd's HTML Training gif](<div width=100%> "https://github.com/SamZayd/HTML-CSS/blob/main/readme%20file/giphy.gif" </div>)
+![SamZayd's HTML Training gif]("https://github.com/SamZayd/HTML-CSS/blob/main/readme%20file/giphy.gif")
 <h1 align='center'> Hi! :wave:</h1>
 <p align='center'>
 I'm SamZayd
