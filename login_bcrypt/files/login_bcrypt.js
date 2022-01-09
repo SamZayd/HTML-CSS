@@ -1,4 +1,5 @@
 //const bcrypt= require("bcryptjs")
+
 function signup(){
     console.log("signup working");
     
@@ -6,6 +7,13 @@ function signup(){
     let pass=document.getElementById('password').innerHTML;
     let re_pass=document.getElementById('re-password').innerHTML;
     let email=document.getElementById('email').innerHTML;
+    if (pass=re_pass){
+        console.log("Passord matched");
+    }
+    else
+        console.log("password incorrect");  
+    
+    
     let user={
         username:usern,
         password:pass,
@@ -23,7 +31,10 @@ console.log(user);
 function login() {
     console.log("login working");
     //let login =bcrypt.compareSync(user.password,crypt_password)
-
-    login? console.log("Successfully Logged In"):console.log("Login Failed");    
+    let username=document.getElementById('in_user').innerHTML;
+    let password= document.getElementById('in_pass').innerHTML;
+    if (username & password == "SamZayd" & "idontknow"){
+        console.log("logged in successfully");
+    }
 }
-login()
+signup()
