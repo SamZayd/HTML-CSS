@@ -3,10 +3,10 @@
 function signup(){
     console.log("signup working");
     
-    let usern=document.getElementById('username').innerHTML;
-    let pass=document.getElementById('password').innerHTML;
-    let re_pass=document.getElementById('re-password').innerHTML;
-    let email=document.getElementById('email').innerHTML;
+    var usern=document.getElementById("username").value;
+    var pass=document.getElementById("password").value;
+    var re_pass=document.getElementById("re-pass").value;
+    var email=document.getElementById("email").value;
     if (pass=re_pass){
         console.log("Passord matched");
     }
@@ -37,4 +37,3 @@ function login() {
         console.log("logged in successfully");
     }
 }
-signup()
