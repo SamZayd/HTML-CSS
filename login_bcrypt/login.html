@@ -3,7 +3,6 @@
     <head>
         <title>Login Page</title>
         <link rel="stylesheet" href="./files/login.css">
-        <script src="./files/login_bcrypt.js"></script>
         <link rel = "icon" href="files/page_icon.png" type = "image/x-icon">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     </head>
@@ -28,7 +27,7 @@
                             <label for="check"><span class="icon"></span> Keep me Signed in</label>
                         </div>
                         <div class="group">
-                            <input type="button" class="button" onclick="login()" value="Sign In">
+                            <input onclick="login()" type="button" class="button"  value="Sign In">
                         </div>
                         <div class="hr"></div>
                         <div class="foot-lnk">
@@ -47,7 +46,7 @@
                         </div>
                         <div class="group">
                             <label for="re-pass" class="label">Repeat Password</label>
-                            <input id="re_pass" type="password" class="input" data-type="password" required>
+                            <input id="re-pass" type="password" class="input" data-type="password" required>
                             <i class="far fa-eye" class="fa_eye" id="re_togglePass"></i>
                         </div>
                         <div class="group">
@@ -55,7 +54,7 @@
                             <input id="email" type="text" class="input" autocomplete="email">
                         </div>
                         <div class="group">
-                            <input type="submit" class="button" onclick="signup()" value="Sign Up">
+                            <input onclick="signup()" type="submit" class="button" value="Sign Up">
                         </div>
                         <div class="hr"></div>
                         <div class="foot-lnk">
@@ -66,6 +65,7 @@
             </div>
         </div>
     </body>
+    <script src="./files/login_bcrypt.js"></script>
     <script>
         const in_togglePassword = document.querySelector('#in_togglePassword');
         const in_password = document.querySelector('#in_pass');
@@ -88,7 +88,7 @@
         });
 
         const re_togglePassword = document.querySelector('#re_togglePass');
-        const re_password = document.querySelector('#re_pass');
+        const re_password = document.querySelector('#re-pass');
     
         re_togglePassword.addEventListener('click', function (m) {
         const type3 = re_password.getAttribute('type') === 'password' ? 'text' : 'password';

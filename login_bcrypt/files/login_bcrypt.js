@@ -3,24 +3,19 @@
 function signup(){
     console.log("signup working");
     
-    var usern=document.getElementById("username").value;
-    var pass=document.getElementById("password").value;
-    var re_pass=document.getElementById("re-pass").value;
-    var email=document.getElementById("email").value;
-    if (pass=re_pass){
+    const usern=document.getElementById('username').value;
+    const pass=document.getElementById('password').value;
+    const re_pass=document.getElementById('re-pass').value;
+    const email=document.getElementById('email').value;
+
+    
+    if (pass===re_pass){
         console.log("Passord matched");
     }
     else
-        console.log("password incorrect");  
-    
-    
-    let user={
-        username:usern,
-        password:pass,
-        email_id:email
-    }
+        console.log("password incorrect");
 
-console.log(user);
+console.log(usern,pass,re_pass,email);
 //console.log(crypt_user);
 //let salt = bcrypt.genSaltSync(10);
 
@@ -31,9 +26,10 @@ console.log(user);
 function login() {
     console.log("login working");
     //let login =bcrypt.compareSync(user.password,crypt_password)
-    let username=document.getElementById('in_user').innerHTML;
-    let password= document.getElementById('in_pass').innerHTML;
-    if (username & password == "SamZayd" & "idontknow"){
+    const username=document.getElementById('in_user').value;
+    const password= document.getElementById('in_pass').value;
+    console.log(username,password);
+    if (username == "SamZayd" && password== "idontknow"){
         console.log("logged in successfully");
     }
 }
