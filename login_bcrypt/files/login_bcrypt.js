@@ -16,10 +16,12 @@ function signup(){
         console.log("password incorrect");
 
 console.log(usern,pass,re_pass,email);
-//console.log(crypt_user);
-//let salt = bcrypt.genSaltSync(10);
+console.log(crypt_user);
+let salt = bcrypt.genSaltSync(10);
 
-//let crypt_user = {...user, password:crypt_password, email:crypt_email}
+//let crypt_user = {usern, password:crypt_password, email:crypt_email}
+
+console.log(usern,pass,re_pass,email);
 
 }
 
